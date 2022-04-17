@@ -1,0 +1,16 @@
+export const homeObjOne = {
+  id:'about',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'web3 Decentralized',
+  headLine: 'Password Manager',
+  description: 'Store your encrypted data on the blockchain',
+  buttonLabel: 'Connect Wallet',
+  imgStart: false,
+  img: require('../../images/undraw_vault_re_s4my.svg').default,
+  alt:'Vault',
+  dark: true,
+  primary: true,
+  darkText: false,
+}
