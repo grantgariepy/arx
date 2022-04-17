@@ -5,7 +5,7 @@ import { Link as LinkS} from 'react-scroll';
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
-  // margin-top: -80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,6 +13,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  font-family: 'Rajdhani', sans-serif;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -27,19 +28,21 @@ export const NavbarContainer = styled.div`
   width:100%;
   padding: 0 24px;
   max-width: 1100px;
+  font-family: 'Rajdhani', sans-serif;
 `;
 
 export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: flex-start;
   cursor:pointer;
-  font-size:1.5rem;
+  font-size:3rem;
   display:flex;
   align-item: center;
   margin-left:24px;
   margin-top:24px;
-  font-weight:bold;
+
   text-decoration:none;
+  font-family: 'Libre Barcode 39 Text', cursive;
 `;
 
 export const MobileIcon = styled.div`
@@ -62,14 +65,17 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin-right: -22px;
+  font-family: 'Rajdhani', sans-serif;
 
   @media screen and (max-width: 768px){
     display: none;
+    font-family: 'Rajdhani', sans-serif;
   }
 `;
 
 export const NavItem = styled.li`
   height: 80px;
+  font-family: 'Rajdhani', sans-serif;
 `;
 
 export const NavLinks = styled(LinkS) `
@@ -80,6 +86,9 @@ export const NavLinks = styled(LinkS) `
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
 
   &.active {
     border-bottom: 3px solid #01bf71;
@@ -89,6 +98,7 @@ export const NavLinks = styled(LinkS) `
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
+  font-family: 'Rajdhani', sans-serif;
 
   @media screen and (max-width: 768px) {
     display:none;
@@ -106,6 +116,8 @@ export const NavBtnLink = styled(LinkR)`
   cursor: pointer;
   transition: ease 0.2s ease-in-out;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
 
   &:hover {
     transition: all 0.2s ease-in-out;

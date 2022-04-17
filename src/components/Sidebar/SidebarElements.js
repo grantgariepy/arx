@@ -16,6 +16,7 @@ export const SidebarContainer = styled.aside`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
   top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
+  font-family: 'Rajdhani', sans-serif;
 
 `;
 
@@ -43,6 +44,7 @@ export const SidebarMenu = styled.ul`
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
+  font-family: 'Rajdhani', sans-serif;
 
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
@@ -60,6 +62,8 @@ export const SidebarLink = styled(LinkS)`
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
 
   &:hover {
     color: #01bf71;
@@ -85,6 +89,8 @@ export const SidebarRoute = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
 
   &:hover {
     transition: all 0.2s ease-in-out;
