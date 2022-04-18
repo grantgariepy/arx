@@ -1,23 +1,21 @@
-import styled from 'styled-components';
-import {Link as LinkS} from 'react-scroll';
-import {Link as LinkR} from 'react-router-dom';
-import {FaTimes} from 'react-icons/fa';
+import styled from "styled-components";
+import { Link as LinkS } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
+import { FaTimes } from "react-icons/fa";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
-  height:100%;
+  height: 100%;
   background: #0d0d0d;
   display: grid;
   align-items: center;
   top: 0;
   left: 0;
   transition: 0.3s ease-in-out;
-  opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
-  top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
-  font-family: 'Rajdhani', sans-serif;
-
+  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -36,7 +34,6 @@ export const Icon = styled.div`
 
 export const SidebarWrapper = styled.div`
   color: #fff;
-
 `;
 
 export const SidebarMenu = styled.ul`
@@ -44,12 +41,11 @@ export const SidebarMenu = styled.ul`
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
-  font-family: 'Rajdhani', sans-serif;
 
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
   }
-`
+`;
 
 export const SidebarLink = styled(LinkS)`
   display: flex;
@@ -62,13 +58,12 @@ export const SidebarLink = styled(LinkS)`
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: bold;
 
   &:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;
-
   }
 `;
 
@@ -89,13 +84,12 @@ export const SidebarRoute = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: bold;
 
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
-
   }
 `;

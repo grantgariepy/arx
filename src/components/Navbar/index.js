@@ -28,7 +28,7 @@ const Navbar = ({ toggle }) => {
         </NavbarContainer>
       </Nav>
     </>
-  )
-}
+  );
+};
 
 export default Navbar
