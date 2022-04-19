@@ -22,7 +22,7 @@ const HeroSection = () => {
           <Button to ='connect' onMouseEnter={onHover} onMouseLeave={onHover}
             primary='true'
             dark='true'>
-            Launch App {hover ? <ArrowForward /> : <ArrowRight /> }
+            Connect Wallet {hover ? <ArrowForward /> : <ArrowRight /> }
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

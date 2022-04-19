@@ -65,7 +65,7 @@ export const HeroH1 = styled.div`
   font-family: "Libre Barcode 39 Text", cursive;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 75px;
   }
 
   @media screen and (max: width: 480px) {
