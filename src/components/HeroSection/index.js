@@ -16,13 +16,13 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Decentralized Web3 Password Manager</HeroH1>
-        <HeroP>Click Connect Wallet to connect your Metamask wallet.</HeroP>
+        <HeroH1>ARX OCCULTUS</HeroH1>
+        <HeroP>decentralized web3 password manager</HeroP>
         <HeroBtnWrapper>
           <Button to ='connect' onMouseEnter={onHover} onMouseLeave={onHover}
             primary='true'
             dark='true'>
-            Connect Wallet {hover ? <ArrowForward /> : <ArrowRight /> }
+            Launch App {hover ? <ArrowForward /> : <ArrowRight /> }
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

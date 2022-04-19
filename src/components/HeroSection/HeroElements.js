@@ -58,11 +58,11 @@ export const HeroContent = styled.div`
   align-items: center;
 `;
 
-export const HeroH1 = styled.h1`
+export const HeroH1 = styled.div`
   color: #fff;
-  font-size: 48px;
+  font-size: 100px;
   text-align: center;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Libre Barcode 39 Text", cursive;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
