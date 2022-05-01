@@ -8,14 +8,14 @@ export const homeObjOne = {
   description: "Store your encrypted data directly on the blockchain",
   buttonLabel: "Connect Wallet",
   imgStart: true,
-  img: require("../../images/green-girl.jpg"),
+  img: require("../../images/svg-1.svg").default,
   alt: "red-wave",
   dark: true,
   primary: true,
   darkText: false
 };
 export const homeObjTwo = {
-  id: "Discover",
+  id: "discover",
   lightBg: true,
   lightText: true,
   lightTextDesc: true,
@@ -24,14 +24,14 @@ export const homeObjTwo = {
   description: "Store your encrypted data directly on the blockchain",
   buttonLabel: "Connect Wallet",
   imgStart: false,
-  img: require("../../images/green-wave-transparent.png"),
-  alt: "green-girl",
+  img: require("../../images/svg-3.svg").default,
+  alt: "girl-check",
   dark: true,
   primary: true,
   darkText: false
 };
 export const homeObjThree = {
-  id: "about",
+  id: "ObjThree",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -40,8 +40,8 @@ export const homeObjThree = {
   description: "Store your encrypted data directly on the blockchain",
   buttonLabel: "Connect Wallet",
   imgStart: true,
-  img: require("../../images/green-girl4.jpg"),
-  alt: "Vault",
+  img: require("../../images/svg-2.svg").default,
+  alt: "security",
   dark: true,
   primary: true,
   darkText: false
